@@ -13,6 +13,7 @@ display = []
 lives = 6
 
 chosen_word = random.choice(word_list)
+print(chosen_word)
 
 for x in range(len(chosen_word)):
     display.append("_")
@@ -40,12 +41,13 @@ while not end_of_game:
             end_of_game = True
     print(f"{' '.join(display)}")
 
+    print(stages[lives])
+
     if "_" not in display:
         end_of_game = True
         print("YOU WIN!")
 
-    print(stages[lives])
-
-print("YOU LOST")
-print(f"The word was: {chosen_word}")
+if lives == 0:
+    print("YOU LOST")
+    print(f"The word was: {chosen_word}")
 k = input("press enter to exit")
