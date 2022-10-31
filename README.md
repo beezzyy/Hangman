@@ -4,7 +4,7 @@ A word game in which one player must guess the letters in a word that the other 
 
 ## Technology
 
-![image](https://user-images.githubusercontent.com/91300383/198965978-d1963ff0-1dac-40c3-8232-6bd892c7a026.png)
+![image](https://user-images.githubusercontent.com/91300383/199087992-89d9551f-06f1-46a9-a60e-358c0e43a1fd.png)
 
 ## Screenshots
 
