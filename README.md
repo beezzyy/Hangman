@@ -1,10 +1,10 @@
 # Hangman🕹️
 
-A word game in which one player has to guess a word that the other player has thought of, by guessing the letters in it. Every time they guess a wrong letter, part of a picture of a person being hanged is drawn, and if the picture is completed the person guessing has lost.
+A word game in which one player must guess the letters in a word that the other player has thought of. Every time they guess a wrong letter, a portion of a picture of a person being hanged is drawn, and the person guessing loses if the picture is completed.
 
 ## Technology
 
-![image](https://user-images.githubusercontent.com/91300383/198965978-d1963ff0-1dac-40c3-8232-6bd892c7a026.png)
+![image](https://user-images.githubusercontent.com/91300383/199087992-89d9551f-06f1-46a9-a60e-358c0e43a1fd.png)
 
 ## Screenshots
 
