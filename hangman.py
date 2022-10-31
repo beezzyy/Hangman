@@ -13,7 +13,6 @@ display = []
 lives = 6
 
 chosen_word = random.choice(word_list)
-print(chosen_word)
 
 for x in range(len(chosen_word)):
     display.append("_")
