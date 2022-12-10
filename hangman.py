@@ -44,7 +44,6 @@ def replay(logo):
         end_of_game = False
     else:
         print("\nThanks for playing!")
-        input("Press any key to exit")
 
 
 while not end_of_game:
