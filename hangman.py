@@ -44,7 +44,7 @@ def replay(logo):
         end_of_game = False
     else:
         print("\nThanks for playing!")
-        exit(0)
+        input("Press any key to exit")
 
 
 while not end_of_game:
@@ -52,7 +52,7 @@ while not end_of_game:
     guessed_letter.append(guess)
     os.system('cls')
 
-    print("\t\t\t\t\t\t\t\t\t Guessed Letter: ", guessed_letter)
+    print("\t\t\t\t\t\t\t\t Guessed Letter: ", guessed_letter)
 
     if guess in display:
         print(f"You've already guessed {guess}")
@@ -83,3 +83,5 @@ while not end_of_game:
         print("YOU LOST\n")
         print(f"The word was: {chosen_word}")
         replay(logo)
+
+k = input("Press any key to exit")
